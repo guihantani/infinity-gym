@@ -1,8 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
 :root{
   --fonte: "Montserrat", sans-serif;
-  --cinza:  #272829;
+  --cinza:  #141414;
   --vermelho: #ed0028;
 }
 
@@ -13,6 +31,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #181a1b;
+  color: white;
 }
 
 code {

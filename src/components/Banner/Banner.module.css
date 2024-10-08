@@ -1,0 +1,91 @@
+.banner{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 80px);
+    width: 100vw;
+}
+
+.banner video{
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+    filter: brightness(50%);
+}
+
+
+.banner__content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+}
+
+.banner__content h1{
+    font-size: 90PX;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    animation: ZoomOut 0.5s ease-in-out;
+}
+
+.banner__content h2{
+    opacity: 0;
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    animation: 0.5s SlideUp 0.5s ease-in-out forwards;
+}
+
+.banner__button{
+    padding: 20px 0;
+    animation: 0.5s SlideUp 0.85s ease-in-out forwards;
+    opacity: 0;
+}
+
+.banner__button a{
+    text-decoration: none;
+    padding: 20px 35px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+
+.banner__button:hover a{
+    background-color: var(--vermelho);
+    color: white;
+}
+
+@keyframes ZoomOut{
+    0%{
+        opacity: 0;
+        scale: 2;
+    }
+
+    100%{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes SlideUp{
+    0%{
+        opacity:0;
+        transform: translate3d(0,100%,0);
+        transform: translate3d(0,100%,0);
+    }
+    to{
+        opacity:1;
+        transform: translateZ(0);
+        transform: translateZ(0);
+    }
+}
