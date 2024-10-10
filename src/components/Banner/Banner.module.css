@@ -89,3 +89,19 @@
         transform: translateZ(0);
     }
 }
+
+@media (prefers-reduced-motion: reduce) {
+    .banner__content h1{
+        animation: none;
+    }
+
+    .banner__content h2{
+        animation: none;
+        opacity: 1;
+    }
+
+    .banner__button{
+        animation: none;
+        opacity: 1;
+    }
+}
