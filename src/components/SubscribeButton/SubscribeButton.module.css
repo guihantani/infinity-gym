@@ -1,0 +1,48 @@
+.subscribeButton{
+    padding: 20px 0;
+    animation: 0.5s SlideUp 0.85s ease-in-out forwards;
+    opacity: 0;
+}
+
+.subscribeButton a{
+    text-decoration: none;
+    padding: 20px 35px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+
+.subscribeButton.corReversa a{
+    background-color: black;
+    color: white;
+}
+
+.subscribeButton:hover a{
+    background-color: var(--vermelho);
+    color: white;
+}
+
+.subscribeButton.estatico{
+    animation: none;
+    opacity: 1;
+}
+
+.subscribeButton.estatico a{
+    animation: none;
+}
+
+@keyframes SlideUp{
+    0%{
+        opacity:0;
+        transform: translate3d(0,100%,0);
+        transform: translate3d(0,100%,0);
+    }
+    to{
+        opacity:1;
+        transform: translateZ(0);
+        transform: translateZ(0);
+    }
+}

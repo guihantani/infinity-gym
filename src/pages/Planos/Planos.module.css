@@ -1,0 +1,30 @@
+.planos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 40px;
+}
+
+.planos__texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 70%;
+    gap: 30px;
+}
+
+.planos__texto h1{
+    font-size: 90PX;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.planos__texto h2{
+    font-size: 25px;
+    font-weight: 200;
+    max-width: 100%;
+}

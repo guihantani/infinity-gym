@@ -1,0 +1,56 @@
+.cardPlano{
+    max-width: 380px;
+    background-color: white !important;
+    color: black;
+    text-decoration: none;
+    padding: 50px 20px;
+    box-shadow: -12px -8px 40px rgba(70,70,70,0.12) inset;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cardPlano.destaque{
+    background-color: white !important;
+    color: var(--cinza);
+}
+
+.cardPlano__texto{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cardPlano__texto p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.cardPlano__texto h2{
+    font-size: 55px;
+}
+
+.cardPlano span{
+    display:block;
+    width:100%;
+    border: 1px solid black;
+    opacity: 0.7;
+}
+
+.container__beneficios{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cardPlano__beneficio{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+
+.cardPlano__beneficio p{
+    font-size: 18px;
+    font-weight: 400;
+}

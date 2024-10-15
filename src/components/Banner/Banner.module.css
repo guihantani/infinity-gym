@@ -41,28 +41,7 @@
     font-weight: 200;
     text-align: center;
     animation: 0.5s SlideUp 0.5s ease-in-out forwards;
-}
-
-.banner__button{
-    padding: 20px 0;
-    animation: 0.5s SlideUp 0.85s ease-in-out forwards;
-    opacity: 0;
-}
-
-.banner__button a{
-    text-decoration: none;
-    padding: 20px 35px;
-    background-color: white;
-    color: black;
-    font-size: 20px;
-    font-weight: 600;
-    text-transform: uppercase;
-    transition: all 0.2s ease-in-out;
-}
-
-.banner__button:hover a{
-    background-color: var(--vermelho);
-    color: white;
+    max-width: 80%;
 }
 
 @keyframes ZoomOut{
