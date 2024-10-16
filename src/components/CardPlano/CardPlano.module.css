@@ -1,6 +1,6 @@
 .cardPlano{
     max-width: 380px;
-    background-color: #F7F7F7 !important;
+    background-color: #F7F7F7;
     color: black;
     text-decoration: none;
     padding: 50px 20px 30px 20px;
@@ -8,11 +8,7 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-}
-
-.cardPlano.destaque{
-    background-color: white !important;
-    color: black;
+    transition: all 0.2s ease-in-out;
 }
 
 .cardPlano__texto{
@@ -41,6 +37,7 @@
     display: inline-flex;
     flex-direction: column;
     gap: 10px;
+    min-height: 160px;
 }
 
 .cardPlano__beneficio{
@@ -53,4 +50,21 @@
 .cardPlano__beneficio p{
     font-size: 18px;
     font-weight: 400;
+}
+
+.cardPlano:hover{
+    transform: translateY(-10px);
+}
+
+.cardPlano.destaque{
+    background-color: var(--vermelho);
+    color: white;
+}
+
+.cardPlano.destaque span{
+    border: 1px solid white;
+}
+
+.cardPlano.destaque .cardPlano__beneficio svg{
+    fill: white;
 }

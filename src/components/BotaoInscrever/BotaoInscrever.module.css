@@ -21,7 +21,6 @@
     color: white;
 }
 
-
 .botaoInscrever.estatico{
     animation: none;
     opacity: 1;
@@ -34,6 +33,16 @@
 
 .botaoInscrever:hover{
     transform: translateY(-10px);
+}
+
+.botaoInscrever.estilo1 a{
+    background-color: black;
+    color: white;
+}
+
+.botaoInscrever.estilo1:hover a{
+    background-color: white;
+    color: black;
 }
 
 @keyframes SlideUp{

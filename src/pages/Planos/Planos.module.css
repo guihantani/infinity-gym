@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     padding-top: 100px;
-    gap: 40px;
+    gap: 50px;
 }
 
 .planos__texto{
@@ -27,4 +27,10 @@
     font-size: 25px;
     font-weight: 200;
     max-width: 100%;
+}
+
+.planos__container{
+    display: flex;
+    gap: 40px;
+    padding-bottom: 10vh;
 }

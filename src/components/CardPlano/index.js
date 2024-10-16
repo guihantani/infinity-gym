@@ -3,7 +3,7 @@ import styles from './CardPlano.module.css'
 
 function CardPlano({nomePlano, precoPlano, descricaoPlano, destaque = false, beneficios}){
     return(
-        <div className={styles.cardPlano}>
+        <div className={`${styles.cardPlano} ${destaque ? styles.destaque : ''}`}>
             <div className={styles.cardPlano__texto}>
                 <p>{nomePlano}</p>
                 <h2>{precoPlano}</h2>
@@ -18,7 +18,9 @@ function CardPlano({nomePlano, precoPlano, descricaoPlano, destaque = false, ben
                     </div>
                 ))}
             </div>
-            <BotaoInscrever targetPage={'/planos'} corReversa estatico>Se Inscreva Agora</BotaoInscrever>
+            {destaque ?
+            <BotaoInscrever targetPage={'/planos'} estatico estilo1>Se Inscreva Agora</BotaoInscrever> :
+            <BotaoInscrever targetPage={'/planos'} corReversa estatico>Se Inscreva Agora</BotaoInscrever>}
         </div>
     )
 }
