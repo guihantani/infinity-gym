@@ -1,10 +1,10 @@
 .cardPlano{
     max-width: 380px;
-    background-color: white !important;
+    background-color: #F7F7F7 !important;
     color: black;
     text-decoration: none;
-    padding: 50px 20px;
-    box-shadow: -12px -8px 40px rgba(70,70,70,0.12) inset;
+    padding: 50px 20px 30px 20px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.45) inset;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -12,7 +12,7 @@
 
 .cardPlano.destaque{
     background-color: white !important;
-    color: var(--cinza);
+    color: black;
 }
 
 .cardPlano__texto{

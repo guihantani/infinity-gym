@@ -1,4 +1,4 @@
-import SubscribeButton from '../SubscribeButton'
+import BotaoInscrever from '../BotaoInscrever'
 import styles from './CardPlano.module.css'
 
 function CardPlano({nomePlano, precoPlano, descricaoPlano, destaque = false, beneficios}){
@@ -18,7 +18,7 @@ function CardPlano({nomePlano, precoPlano, descricaoPlano, destaque = false, ben
                     </div>
                 ))}
             </div>
-            <SubscribeButton targetPage={'/planos'} corReversa estatico>Se Inscreva Agora</SubscribeButton>
+            <BotaoInscrever targetPage={'/planos'} corReversa estatico>Se Inscreva Agora</BotaoInscrever>
         </div>
     )
 }

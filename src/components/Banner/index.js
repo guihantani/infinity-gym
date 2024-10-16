@@ -1,5 +1,5 @@
 import styles from './Banner.module.css'
-import SubscribeButton from '../SubscribeButton'
+import BotaoInscrever from '../BotaoInscrever'
 
 function Banner(){
     return(
@@ -10,7 +10,7 @@ function Banner(){
             <div className={styles.banner__content}>
                 <h1>Infinity Gym</h1>
                 <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis euismod dolor, placerat tincidunt nulla. Sed varius at quam a egestas.</h2>
-                <SubscribeButton targetPage={'/planos'}>Se Inscreva Agora</SubscribeButton>
+                <BotaoInscrever targetPage={'/planos'}>Se Inscreva Agora</BotaoInscrever>
             </div>
         </section>
     )
