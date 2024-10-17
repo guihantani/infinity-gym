@@ -18,9 +18,11 @@ function CardPlano({nomePlano, precoPlano, descricaoPlano, destaque = false, ben
                     </div>
                 ))}
             </div>
-            {destaque ?
-            <BotaoInscrever targetPage={'/planos'} estatico estilo1>Se Inscreva Agora</BotaoInscrever> :
-            <BotaoInscrever targetPage={'/planos'} corReversa estatico>Se Inscreva Agora</BotaoInscrever>}
+            <div className={styles.cardPlano__botao}>
+                {destaque ?
+                <BotaoInscrever targetPage={'/planos'} estatico estilo1>Se Inscreva Agora</BotaoInscrever> :
+                <BotaoInscrever targetPage={'/planos'} corReversa estatico>Se Inscreva Agora</BotaoInscrever>}
+            </div>
         </div>
     )
 }
