@@ -1,0 +1,55 @@
+.footer{
+    bottom: 0;
+    height: 25vh;
+    padding: 30px 60px;
+    background-color: var(--cinza);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__container{
+    display: flex;
+    gap: 100px;
+}
+
+.conteudo__container{
+    display: flex;
+    gap: 20px;
+}
+
+.conteudo__container img{
+    width: 40px;
+    height: 40px;
+}
+
+.contato__conteudo,
+.horario__conteudo{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 270px;
+}
+
+.contato__texto__h3,
+.horario__texto,
+.horario__numeros{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contato__texto__h3 h3{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.horario__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.horario__container h3{
+    font-size: 18px;
+    font-weight: 300;
+}
