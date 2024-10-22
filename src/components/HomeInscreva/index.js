@@ -25,8 +25,7 @@ function HomeInscreva(){
             scrollTrigger:{
                 trigger: (`.${styles.homeInscreva__conteudo}`),
                 start: 'top 85%',
-                end: 'bottom 60%',
-                markers: true
+                end: 'bottom 60%'
             }
         })
 
