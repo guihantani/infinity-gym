@@ -21,9 +21,21 @@ function HomeInscreva(){
             }
         })
 
+        let tlText = gsap.timeline({
+            scrollTrigger:{
+                trigger: (`.${styles.homeInscreva__conteudo}`),
+                start: 'top 85%',
+                end: 'bottom 60%',
+                markers: true
+            }
+        })
+
         tl.fromTo((`.${styles.imagem2}`),{yPercent: 0}, {yPercent: -10})
-        tl.fromTo((`.${styles.imagem1}`),{yPercent: 0}, {yPercent: 10}, '<');
-        
+        tl.fromTo((`.${styles.imagem1}`),{yPercent: 0}, {yPercent: 10}, '<')
+
+        tlText.fromTo((`.${styles.homeInscreva__conteudo} h1`),{opacity: 0, scale: 2}, {opacity: 1, scale: 1})
+        tlText.fromTo((`.${styles.homeInscreva__conteudo} h2`),{opacity: 0, y:'100%'}, {opacity: 1, y:'0%'})
+        tlText.fromTo((`.${styles.homeInscreva__conteudo} div`),{opacity: 0, y:'100%'}, {opacity: 1, y:'0%'})
     })
 
     return(
@@ -31,7 +43,9 @@ function HomeInscreva(){
             <div className={styles.homeInscreva__conteudo}>
                 <h1>Garanta já o plano ideal para você!</h1>
                 <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                <BotaoInscrever targetPage={'/planos'} corReversa>Se Inscreva Agora</BotaoInscrever>
+                <div>
+                    <BotaoInscrever targetPage={'/planos'} corReversa>Se Inscreva Agora</BotaoInscrever>
+                </div>
             </div>
             <div className={styles.container__imgs}>
                 <div className={styles.wrapper__imgs}>
