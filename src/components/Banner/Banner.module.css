@@ -45,6 +45,15 @@
     max-width: 80%;
 }
 
+.banner__titulo{
+   display: inline-flex;
+   gap: 20px;
+}
+
+.vermelho{
+    color: var(--vermelho);
+}
+
 @keyframes ZoomOut{
     0%{
         opacity: 0;
