@@ -33,7 +33,6 @@
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
-    animation: ZoomOut 0.5s ease-in-out;
 }
 
 .banner__content h2{
@@ -48,6 +47,7 @@
 .banner__titulo{
    display: inline-flex;
    gap: 20px;
+   animation: ZoomOut 0.5s ease-in-out;
 }
 
 .vermelho{
