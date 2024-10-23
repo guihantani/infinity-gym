@@ -1,4 +1,4 @@
-import { useLayoutEffect } from 'react'
+import { useEffect } from 'react'
 import BotaoInscrever from '../BotaoInscrever'
 import styles from './HomeInscreva.module.css'
 import { gsap } from 'gsap';
@@ -6,35 +6,38 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 function HomeInscreva(){
 
-    useLayoutEffect(() =>{
-        gsap.registerPlugin(ScrollTrigger);
+    useEffect(() =>{
+        let mm = gsap.matchMedia();
+        mm.add("(prefers-reduced-motion: no-preference)", () => {
+            gsap.registerPlugin(ScrollTrigger);
 
-        gsap.set((`.${styles.imagem2}`), {yPercent: 0})
-        gsap.set((`.${styles.imagem1}`), {yPercent: 0})
-        
-        let tl = gsap.timeline({
-            scrollTrigger:{
-                trigger: (`.${styles.wrapper__imgs}`),
-                start: 'top 65%',
-                end: 'bottom 60%',
-                scrub: true
-            }
-        })
+            gsap.set((`.${styles.imagem2}`), {yPercent: 0})
+            gsap.set((`.${styles.imagem1}`), {yPercent: 0})
+            
+            let tl = gsap.timeline({
+                scrollTrigger:{
+                    trigger: (`.${styles.wrapper__imgs}`),
+                    start: 'top 65%',
+                    end: 'bottom 60%',
+                    scrub: true
+                }
+            })
 
-        let tlText = gsap.timeline({
-            scrollTrigger:{
-                trigger: (`.${styles.homeInscreva__conteudo}`),
-                start: 'top 85%',
-                end: 'bottom 60%'
-            }
-        })
+            let tlText = gsap.timeline({
+                scrollTrigger:{
+                    trigger: (`.${styles.homeInscreva__conteudo}`),
+                    start: 'top 85%',
+                    end: 'bottom 60%'
+                }
+            })
 
-        tl.fromTo((`.${styles.imagem2}`),{yPercent: 0}, {yPercent: -10})
-        tl.fromTo((`.${styles.imagem1}`),{yPercent: 0}, {yPercent: 10}, '<')
+            tl.fromTo((`.${styles.imagem2}`),{yPercent: 0}, {yPercent: -10})
+            tl.fromTo((`.${styles.imagem1}`),{yPercent: 0}, {yPercent: 10}, '<')
 
-        tlText.fromTo((`.${styles.homeInscreva__conteudo} h1`),{opacity: 0, scale: 2}, {opacity: 1, scale: 1})
-        tlText.fromTo((`.${styles.homeInscreva__conteudo} h2`),{opacity: 0, y:'100%'}, {opacity: 1, y:'0%'})
-        tlText.fromTo((`.${styles.homeInscreva__conteudo} div`),{opacity: 0, y:'100%'}, {opacity: 1, y:'0%'})
+            tlText.fromTo((`.${styles.homeInscreva__conteudo} h1`),{opacity: 0, scale: 2}, {opacity: 1, scale: 1})
+            tlText.fromTo((`.${styles.homeInscreva__conteudo} h2`),{opacity: 0, y:'100%'}, {opacity: 1, y:'0%'})
+            tlText.fromTo((`.${styles.homeInscreva__conteudo} div`),{opacity: 0, y:'100%'}, {opacity: 1, y:'0%'})
+        });
     })
 
     return(

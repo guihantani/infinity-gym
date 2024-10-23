@@ -80,7 +80,7 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .banner__content h1{
+    .banner__titulo{
         animation: none;
     }
 
