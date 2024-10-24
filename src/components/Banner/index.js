@@ -1,4 +1,5 @@
 import styles from './Banner.module.css'
+import { Player } from '@lottiefiles/react-lottie-player';
 
 function Banner(){
     return(
@@ -12,6 +13,9 @@ function Banner(){
                     <h1 className={styles.vermelho}>Gym</h1>
                 </div>
                 <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis euismod dolor, placerat tincidunt nulla. Sed varius at quam a egestas.</h2>
+            </div>
+            <div className={styles.player}>
+                <Player src='https://lottie.host/987dbaba-2139-4134-8ae3-126f558a44ea/KMVBlXmzJZ.json' loop autoplay style={{position: "absolute", bottom: '20px'}}/>
             </div>
         </section>
     )

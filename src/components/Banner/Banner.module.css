@@ -1,6 +1,7 @@
 .banner{
     position: absolute;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: calc(100vh - 70px);
@@ -53,6 +54,14 @@
 .vermelho{
     color: var(--vermelho);
 }
+
+.player{
+    width: 90px;
+    height: 96px;
+    opacity: 0;
+    animation: 0.5s ZoomOut 1s ease-in-out forwards;
+}
+
 
 @keyframes ZoomOut{
     0%{
