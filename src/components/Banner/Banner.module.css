@@ -56,8 +56,10 @@
 }
 
 .player{
+    position: absolute;
     width: 90px;
     height: 96px;
+    bottom: 0;
     opacity: 0;
     animation: 0.5s ZoomOut 1s ease-in-out forwards;
 }
