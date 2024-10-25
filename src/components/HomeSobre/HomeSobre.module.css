@@ -1,0 +1,44 @@
+.homeSobre{
+    padding: 10rem;
+    display: flex;
+    justify-content: center;
+    background-color: var(--cinza);
+}
+
+.homeSobre__conteudo{
+    display: flex;
+    width:  1100px;
+    gap: 30px;
+}
+
+.homeSobre__esquerda{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.homeSobre__texto{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.homeSobre h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.homeSobre h3{
+    font-size: 22px;
+    font-weight: 200;
+    text-align: left;
+}
+
+.botao{
+    width: 321px;
+}
+
+.homeSobre__conteudo img{
+    border-radius: 16px;
+}
