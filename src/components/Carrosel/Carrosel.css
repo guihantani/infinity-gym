@@ -138,3 +138,11 @@
     transition: scale 0.2s ease-in-out;
     scale: 1.08;
 }
+
+.slider-arrow{
+    z-index: 2;
+}
+
+.swiper-pagination{
+    z-index: 1;
+}
