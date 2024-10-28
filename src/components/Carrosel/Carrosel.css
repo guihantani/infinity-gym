@@ -1,7 +1,7 @@
 .container {
     margin: 0 auto;
     background-color: var(--cinza);
-    padding-top: 70px;
+    padding: 70px 0 100px 0;
 }
 
 .heading {
