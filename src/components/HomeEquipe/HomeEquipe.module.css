@@ -1,8 +1,21 @@
-.homeEquipe__conteudo{
-    background-image: url('../../../public/images/equipe.jpg');
-    background-size: cover;
+.homeEquipe{
     width: 100%;
     height: calc(100vh - 70px);
+    overflow: hidden;
+    position: relative;
+}
+
+.homeEquipe img{
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    
+}
+
+.homeEquipe__conteudo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;

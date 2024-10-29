@@ -11,6 +11,15 @@ function HomeEquipe(){
         mm.add("(prefers-reduced-motion: no-preference)", () => {
             gsap.registerPlugin(ScrollTrigger);
 
+            let tlImg = gsap.timeline({
+                scrollTrigger:{
+                    trigger: (`.${styles.homeEquipe__conteudo}`),
+                    start: 'top 85%',
+                    end: 'bottom 60%'
+                }
+            })
+
+
             let tlText = gsap.timeline({
                 scrollTrigger:{
                     trigger: (`.${styles.homeEquipe__conteudo}`),
@@ -19,6 +28,7 @@ function HomeEquipe(){
                 }
             })
 
+            tlImg.fromTo((`.${styles.homeEquipe} img`),{opacity: 0, scale: 2, duration: 4, ease: "power4.out"}, {opacity: 1, scale: 1,  duration: 4})
             tlText.fromTo((`.${styles.homeEquipe__texto} h1`),{opacity: 0, scale: 2}, {opacity: 1, scale: 1})
             tlText.fromTo((`.${styles.homeEquipe__texto} h3`),{opacity: 0, y:'100%'}, {opacity: 1, y:'0%'})
             tlText.fromTo((`.${styles.homeEquipe__texto} div`),{opacity: 0, y:'100%'}, {opacity: 1, y:'0%'})
@@ -36,6 +46,7 @@ function HomeEquipe(){
                     </div>
                 </div>
             </div>
+            <img src='images/equipe.jpg'/>
         </section>
     )
 }
