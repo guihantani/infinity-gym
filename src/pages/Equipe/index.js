@@ -1,6 +1,9 @@
+import EquipeBanner from '../../components/EquipeBanner';
+import styles from './Equipe.module.css'
+
 function Equipe(){
     return(
-        <h1>Equipe</h1>
+        <EquipeBanner/>
     )
 }
 
