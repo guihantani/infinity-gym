@@ -1,0 +1,40 @@
+{
+    "equipe": [
+      {
+        "nome": "Ayah Johnson",
+        "funcao": "Personal Trainer",
+        "imagem": "/images/equipe/equipe1.jpg",
+        "id": 1
+      },
+      {
+        "nome": "Jeremiah Johnston",
+        "funcao": "Personal Trainer",
+        "imagem": "/images/equipe/equipe2.jpg",
+        "id": 2
+      },
+      {
+        "nome": "Faris Bradshaw",
+        "funcao": "Personal Trainer",
+        "imagem": "/images/equipe/equipe3.jpg",
+        "id": 3
+      },
+      {
+        "nome": "Angel Reed",
+        "funcao": "Nutricionista",
+        "imagem": "/images/equipe/equipe4.jpg",
+        "id": 4
+      },
+      {
+        "nome": "Phillip Campbell",
+        "funcao": "Nutricionista",
+        "imagem": "/images/equipe/equipe5.jpg",
+        "id": 5
+      },
+      {
+        "nome": "Ash",
+        "funcao": "Mascote",
+        "imagem": "/images/equipe/equipe6.jpg",
+        "id": 6
+      }
+    ]
+  }

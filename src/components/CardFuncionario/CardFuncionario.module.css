@@ -1,0 +1,43 @@
+.cardFuncionario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container__imagem{
+    height: 380px;
+    width: 380px;
+    overflow: hidden;
+}
+
+.container__imagem img{
+    height: 380px;
+    width: 380px;
+    transition: scale 0.25s ease-in-out;
+}
+
+.cardFuncionario__texto{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cardFuncionario__texto h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.cardFuncionario__texto p{
+    font-size: 20px;
+    font-weight: 300;
+    color: #d8d8d8;
+}
+
+.container__imagem img:hover{
+    scale: 1.1;
+    transition: scale 0.25s ease-in-out;
+}

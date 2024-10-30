@@ -1,0 +1,8 @@
+.equipeLista{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10rem 2rem;
+    row-gap: 100px;
+    max-width: 1400px;
+    margin: auto;
+}
