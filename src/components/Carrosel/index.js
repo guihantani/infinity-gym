@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
@@ -9,10 +9,30 @@ import 'swiper/css/navigation';
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 import './Carrosel.css'
 
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
 function Carrosel() {
+  useEffect(() =>{
+    let mm = gsap.matchMedia();
+    mm.add("(prefers-reduced-motion: no-preference)", () => {
+        gsap.registerPlugin(ScrollTrigger);
+
+        let tlText = gsap.timeline({
+            scrollTrigger:{
+                trigger: ('.carroselContainer'),
+                start: 'top 85%',
+                end: 'bottom 60%'
+            }
+        })
+
+        tlText.fromTo(('.carroselTitulo'),{opacity: 0, scale: 2}, {opacity: 1, scale: 1})
+    });
+})
+
   return (
-    <section className="container">
-      <h1 className="heading">Explore nosso espaço</h1>
+    <section className="carroselContainer">
+      <h1 className="carroselTitulo">Explore nosso espaço</h1>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}
