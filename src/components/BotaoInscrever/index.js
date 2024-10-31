@@ -8,7 +8,7 @@ function BotaoInscrever({targetPage, children, corReversa = false, estatico = fa
 
     return(
         <div className={`${styles.botaoInscrever} ${corReversa ? styles.corReversa : ''} ${estatico ? styles.estatico : ''} ${estilo1 ? styles.estilo1 : ''}`}>
-                <NavLink to={targetPage} onClick={() => {lenis.scrollTo('start');}}>{children}</NavLink>
+                <NavLink to={targetPage} onClick={() => {lenis.scrollTo('start', {immediate: true});}}>{children}</NavLink>
         </div>
     )
 }
