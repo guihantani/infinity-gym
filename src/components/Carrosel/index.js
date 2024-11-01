@@ -32,7 +32,7 @@ function Carrosel() {
 
   return (
     <section className="carroselContainer">
-      <h1 className="carroselTitulo">Explore nosso espaço</h1>
+      <h1 className="carroselTitulo">nosso espaço</h1>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}
