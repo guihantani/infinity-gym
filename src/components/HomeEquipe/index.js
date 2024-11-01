@@ -28,7 +28,7 @@ function HomeEquipe(){
                 }
             })
 
-            tlImg.fromTo((`.${styles.homeEquipe} img`),{opacity: 0, scale: 2, duration: 4, ease: "power4.out"}, {opacity: 1, scale: 1,  duration: 4})
+            tlImg.fromTo((`.${styles.homeEquipe} img`),{scale: 2, duration: 4, ease: "power4.out"}, {scale: 1,  duration: 4})
             tlText.fromTo((`.${styles.homeEquipe__texto} h1`),{opacity: 0, scale: 2}, {opacity: 1, scale: 1})
             tlText.fromTo((`.${styles.homeEquipe__texto} h3`),{opacity: 0, y:'100%'}, {opacity: 1, y:'0%'})
             tlText.fromTo((`.${styles.homeEquipe__texto} div`),{opacity: 0, y:'100%'}, {opacity: 1, y:'0%'})
