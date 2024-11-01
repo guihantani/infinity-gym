@@ -1,5 +1,5 @@
 .sobreHistoria{
-    padding: 10rem;
+    padding: 22rem 10rem;
     display: flex;
     justify-content: center;
 }
@@ -29,6 +29,14 @@
     text-align: left;
 }
 
-.sobreHistoria__conteudo img{
+.imagemContainer{
+    min-width: 450px;
+    height: 450px;
     border-radius: 16px;
+    overflow: hidden;
+}
+
+.imagemContainer img{
+    height: 100%;
+    width: 100%;
 }
