@@ -1,0 +1,18 @@
+.principioCard{
+    padding: 38px 48px;
+    border: 3px solid;
+    border-color: black;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.principioCard h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.principioCard p{
+    font-size: 18px;
+    font-weight: 400;
+}
