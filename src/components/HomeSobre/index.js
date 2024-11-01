@@ -15,6 +15,13 @@ function HomeSobre(){
             gsap.set((`.${styles.homeSobre__texto} h3`), {xPercent: 0})
             gsap.set((`.${styles.botao}`), {yPercent: 0})
 
+            let tl = gsap.timeline({
+                scrollTrigger:{
+                    trigger: (`.${styles.homeSobre__conteudo}`),
+                    start: 'top 100%'
+                }
+            })
+
             let tlText = gsap.timeline({
                 scrollTrigger:{
                     trigger: (`.${styles.homeSobre__conteudo}`),
@@ -22,6 +29,8 @@ function HomeSobre(){
                     end: 'bottom 60%'
                 }
             })
+
+            tl.fromTo((`.${styles.imagemContainer} img`),{scale: 2}, {scale: 1, duration: 2, ease: "power4.out"})
 
             tlText.fromTo((`.${styles.homeSobre__texto} h1`),{opacity: 0, x:'-30%'}, {opacity: 1, x:'0%'})
             tlText.fromTo((`.${styles.homeSobre__texto} h3`),{opacity: 0, x:'-30%'}, {opacity: 1, x:'0%'})
@@ -41,7 +50,9 @@ function HomeSobre(){
                         <BotaoInscrever targetPage={'/sobre'}>Saiba mais sobre</BotaoInscrever>
                     </div>
                 </div>
-                <img src="/images/building.jpg" width={'450px'}/>
+                <div className={styles.imagemContainer}>
+                    <img src="/images/building.jpg"/>
+                </div>
             </div>
         </section>
     )

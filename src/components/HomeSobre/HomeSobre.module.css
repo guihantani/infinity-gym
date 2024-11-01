@@ -6,7 +6,7 @@
 
 .homeSobre__conteudo{
     display: flex;
-    width:  1100px;
+    max-width:  1100px;
     gap: 30px;
 }
 
@@ -38,6 +38,14 @@
     width: 321px;
 }
 
-.homeSobre__conteudo img{
+.imagemContainer{
+    min-width: 450px;
+    height: 674.86px;
     border-radius: 16px;
+    overflow: hidden;
+}
+
+.imagemContainer img{
+    height: 100%;
+    width: 100%;
 }
