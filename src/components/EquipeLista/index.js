@@ -20,7 +20,7 @@ function EquipeLista(){
                 }
             })
             
-            tl.fromTo((`.${styles.equipeLista}`),{opacity: 0, y:'100%'}, {opacity: 1, y:'0%', duration: 1, ease: "back.out(1.4)"})
+            tl.fromTo((`.${styles.equipeLista}`),{opacity: 0, y:'15%'}, {opacity: 1, y:'0%', duration: 0.7, ease: "back.out(1.4)"})
         });
     })
 
