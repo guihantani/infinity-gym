@@ -39,3 +39,17 @@
 .navbar ul li a.active{
     color: var(--vermelho);
 }
+
+@media (max-width: 480px) {
+    .header{
+        justify-content: center;
+    }
+
+    .header ul a{
+        font-size: 16px;
+    }
+
+    .header img{
+        display: none;
+    }
+}
