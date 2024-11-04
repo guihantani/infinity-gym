@@ -73,6 +73,10 @@
         justify-content: center;
     }
 
+    .homeSobre__esquerda{
+        align-items: center;
+    }
+
     .homeSobre h1{
         font-size: 20px;
         text-align: center;
