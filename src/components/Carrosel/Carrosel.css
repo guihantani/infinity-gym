@@ -19,12 +19,6 @@
     position: relative;
 }
 
-.swiper-slide {
-    width: 50rem;
-    height: 37rem;
-    position: relative;
-}
-
 @media (max-width: 500px) {
     .swiper_container {
         height: 47rem;
@@ -41,9 +35,15 @@
     }
 }
 
+.swiper-slide {
+    width: 40rem;
+    height: 29rem;
+    position: relative;
+}
+
 .swiper-slide img {
-    width: 50rem;
-    height: 37rem;
+    width: 40rem;
+    height: 29rem;
     border-radius: 2rem;
     object-fit: cover;
 }

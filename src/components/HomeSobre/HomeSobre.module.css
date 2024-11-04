@@ -49,3 +49,19 @@
     height: 100%;
     width: 100%;
 }
+
+@media (max-width: 768px) {
+    .homeSobre h1{
+        font-size: 30px;
+    }
+
+    .homeSobre h3{
+        font-size: 19px;
+    }
+
+    .imagemContainer{
+        min-width: 350px;
+        height: 524.22px;
+    }
+    
+}

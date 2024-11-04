@@ -11,3 +11,9 @@
     height: 0px;
     width: 0px;
 }
+
+@media (max-width: 768px) {
+    .equipeLista{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

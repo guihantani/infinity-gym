@@ -59,9 +59,21 @@
 
 @media (max-width: 1024px) {
     .wrapper__imgs{
-        position: relative;
         min-width: 1024px;
-        transform: translateY(-200px);
     }
 
+}
+
+@media (max-width: 768px) {
+    .wrapper__imgs{
+        min-width: 768px;
+    }
+
+    .imagem1{
+        width: 350px;
+    }
+
+    .imagem2{
+        width: 450px;
+    }
 }
