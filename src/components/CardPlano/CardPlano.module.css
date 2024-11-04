@@ -75,3 +75,17 @@
     justify-content: center;
     width: 100%;
 }
+
+@media (max-width: 1024px) {
+    .cardPlano{
+        max-width: 100%;
+    }
+
+    .container__beneficios{
+        min-height: 50px;
+        display: grid;
+        grid-auto-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-items: center;
+    }
+}

@@ -67,3 +67,37 @@
     height: 40px;
     filter: invert(100%);
 }
+
+@media (max-width: 1024px) {
+    .footer{
+        padding: 30px 20px 0 20px;
+    }
+
+    .footer__container{
+        display: flex;
+        gap: 50px;
+        padding-bottom: 30px;
+    }
+
+    .contato__conteudo h1,
+    .horario__conteudo h1{
+        font-size: 24px;
+    }
+
+
+    .contato__texto__h3 h3,
+    .horario__container h3{
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .conteudo__container img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .icones__redes img{
+        width: 30px;
+        height: 30px;
+    }
+}

@@ -56,3 +56,12 @@
     bottom: -30px;
     right: 0;
 }
+
+@media (max-width: 1024px) {
+    .wrapper__imgs{
+        position: relative;
+        min-width: 1024px;
+        transform: translateY(-200px);
+    }
+
+}

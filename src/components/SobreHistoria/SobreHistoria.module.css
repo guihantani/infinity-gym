@@ -40,3 +40,26 @@
     height: 100%;
     width: 100%;
 }
+
+@media (max-width: 1024px) {
+    .sobreHistoria{
+        padding: 18rem 10rem;
+    }
+
+    .sobreHistoria h1{
+        font-size: 50px;
+    }
+
+    .sobreHistoria h3{
+        font-size: 18px;
+    }
+
+    .imagemContainer{
+        min-width: 300px;
+        height: 300px;
+    }
+
+    .imagemContainer img{
+        width: 300px;
+    }
+}

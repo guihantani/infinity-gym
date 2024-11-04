@@ -41,3 +41,23 @@
     scale: 1.1;
     transition: scale 0.25s ease-in-out;
 }
+
+@media (max-width: 1024px) {
+    .container__imagem{
+        height: 250px;
+        width: 250px;
+    }
+    
+    .container__imagem img{
+        height: 250px;
+        width: 250px;
+    }
+
+    .cardFuncionario__texto h3{
+        font-size: 22px;
+    }
+    
+    .cardFuncionario__texto p{
+        font-size: 18px;
+    }
+}

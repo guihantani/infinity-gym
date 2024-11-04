@@ -9,7 +9,8 @@
     position: absolute;
     object-fit: cover;
     z-index: -1;
-    
+    height: 100%;
+    width: 100%;
 }
 
 .homeEquipe__conteudo{
@@ -44,4 +45,14 @@
     font-weight: 200;
     text-align: center;
     width: 70%;
+}
+
+@media (max-width: 1024px) {
+    .homeEquipe__conteudo h1{
+        font-size: 50px;
+    }
+
+    .homeEquipe__conteudo h3{
+        font-size: 22px;
+    }
 }

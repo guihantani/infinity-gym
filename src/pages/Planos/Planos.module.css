@@ -34,3 +34,11 @@
     gap: 40px;
     padding-bottom: 10vh;
 }
+
+@media (max-width: 1024px) {
+    .planos__container{
+        flex-direction: column;
+        width: 100%;
+        padding: 0 60px 10vh 60px;
+    }
+}

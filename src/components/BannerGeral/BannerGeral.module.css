@@ -95,3 +95,13 @@
         animation: none;
     }
 }
+
+@media (max-width: 1024px) {
+    .bannerGeral h1{
+        font-size: 70px;
+    }
+
+    .bannerGeral h3{
+        font-size: 20px;
+    }
+}

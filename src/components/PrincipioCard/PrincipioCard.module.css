@@ -16,3 +16,18 @@
     font-size: 18px;
     font-weight: 400;
 }
+
+@media (max-width: 1024px) {
+    .principioCard h3{
+        font-size: 26px;
+    }
+
+    .principioCard p{
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .principioCard img{
+        width: 60px;
+    }
+}
