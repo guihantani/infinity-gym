@@ -36,14 +36,14 @@
 }
 
 .swiper-slide {
-    width: 40rem;
-    height: 29rem;
+    width: 50rem;
+    height: 37rem;
     position: relative;
 }
 
 .swiper-slide img {
-    width: 40rem;
-    height: 29rem;
+    width: 50rem;
+    height: 37rem;
     border-radius: 2rem;
     object-fit: cover;
 }
@@ -150,5 +150,17 @@
 @media (max-width: 1024px) {
     .carroselTitulo{
         font-size: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .swiper-slide {
+        width: 40rem;
+        height: 29rem;
+    }
+    
+    .swiper-slide img {
+        width: 40rem;
+        height: 29rem;
     }
 }
