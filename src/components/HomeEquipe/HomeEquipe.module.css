@@ -56,3 +56,13 @@
         font-size: 22px;
     }
 }
+
+@media (max-width: 480px) {
+    .homeEquipe__conteudo h1{
+        font-size: 30px;
+    }
+
+    .homeEquipe__conteudo h3{
+        font-size: 16px;
+    }
+}

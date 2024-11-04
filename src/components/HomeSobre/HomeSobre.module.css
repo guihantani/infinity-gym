@@ -65,3 +65,34 @@
     }
     
 }
+
+@media (max-width: 480px) {
+    .homeSobre{
+        padding: 6rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .homeSobre h1{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .homeSobre h3{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .imagemContainer{
+        display: none;
+    }
+    
+    .homeSobre__conteudo{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .botao{
+        width: 230.63px;
+    }
+}

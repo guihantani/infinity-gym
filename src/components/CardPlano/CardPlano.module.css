@@ -89,3 +89,16 @@
         justify-items: center;
     }
 }
+
+@media (max-width: 480px) {
+    .container__beneficios{
+        min-height: 160px;
+        grid-auto-columns: 1fr;
+        grid-template-columns: 1fr;
+        justify-items: left;
+    }
+
+    .cardPlano__texto h2{
+        font-size: 40px;
+    }
+}

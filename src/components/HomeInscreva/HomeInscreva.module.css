@@ -77,3 +77,25 @@
         width: 450px;
     }
 }
+
+@media (max-width: 480px) {
+    .homeInscreva__conteudo h1{
+        font-size: 30px;
+    }
+
+    .homeInscreva__conteudo h2{
+        font-size: 15px;
+    }
+
+    .wrapper__imgs{
+        min-width: 480px;
+    }
+
+    .imagem1{
+        width: 230px;
+    }
+
+    .imagem2{
+        width: 295px;
+    }
+}

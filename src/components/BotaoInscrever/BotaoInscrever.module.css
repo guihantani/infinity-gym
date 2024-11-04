@@ -57,3 +57,10 @@
         transform: translateZ(0);
     }
 }
+
+@media (max-width: 480px) {
+    .botaoInscrever a{
+        padding: 15px 45px;
+        font-size: 14px;
+    }
+}

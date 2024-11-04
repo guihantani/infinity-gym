@@ -63,3 +63,21 @@
         width: 300px;
     }
 }
+
+@media (max-width: 480px) {
+    .imagemContainer{
+        display: none;
+    }
+
+    .sobreHistoria{
+        padding: 10rem 2rem;
+    }
+
+    .sobreHistoria h1{
+        text-align: center;
+    }
+    
+    .sobreHistoria h3{
+        text-align: center;
+    }
+}

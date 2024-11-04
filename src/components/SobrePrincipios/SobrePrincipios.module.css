@@ -41,3 +41,9 @@
         padding: 6rem;
     }
 }
+
+@media (max-width: 480px) {
+    .sobrePrincipios{
+        padding: 2rem;
+    }
+}

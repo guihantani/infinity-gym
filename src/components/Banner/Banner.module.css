@@ -105,3 +105,13 @@
         opacity: 1;
     }
 }
+
+@media (max-width: 480px) {
+    .banner__content h1{
+        font-size: 50px;
+    }
+
+    .banner__content h2{
+        font-size: 16px;
+    }
+}

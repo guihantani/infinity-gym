@@ -42,3 +42,13 @@
         padding: 0 60px 10vh 60px;
     }
 }
+
+@media (max-width: 480px) {
+    .planos__texto h1{
+        font-size: 50px;
+    }
+
+    .planos__texto h2{
+        font-size: 16px;
+    }
+}
