@@ -42,6 +42,10 @@ function Footer(){
                     </div>
                 </div>
             </div>
+            <div className={styles.icones__redes}>
+                <a href='https://www.instagram.com/'><img src='/svgs/instagram.svg'/></a>
+                <a href='https://www.facebook.com/'><img src='/svgs/facebook.svg'/></a>
+            </div>
         </footer>
     )
 }
