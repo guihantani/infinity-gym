@@ -55,25 +55,25 @@ function Carrosel() {
         className="swiper_container"
       >
         <SwiperSlide>
-          <img src='/images/carrosel/carrosel1.jpg' alt="slide_image" />
+          <img src='/images/carrosel/carrosel1.jpg' alt="Imagem da academia" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src='/images/carrosel/carrosel2.jpg' alt="slide_image" />
+          <img src='/images/carrosel/carrosel2.jpg' alt="Imagem da academia" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src='/images/carrosel/carrosel3.jpg' alt="slide_image" />
+          <img src='/images/carrosel/carrosel3.jpg' alt="Imagem da academia" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src='/images/carrosel/carrosel4.jpg' alt="slide_image" />
+          <img src='/images/carrosel/carrosel4.jpg' alt="Imagem da academia" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src='/images/carrosel/carrosel5.jpg' alt="slide_image" />
+          <img src='/images/carrosel/carrosel5.jpg' alt="Imagem da academia" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src='/images/carrosel/carrosel6.jpg' alt="slide_image" />
+          <img src='/images/carrosel/carrosel6.jpg' alt="Imagem da academia" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src='/images/carrosel/carrosel7.jpg' alt="slide_image" />
+          <img src='/images/carrosel/carrosel7.jpg' alt="Imagem da academia" />
         </SwiperSlide>
 
         <div className="slider-controler">

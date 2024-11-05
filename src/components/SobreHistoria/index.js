@@ -40,7 +40,7 @@ function SobreHistoria(){
                     <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo sociis morbi sed sagittis consectetur in quisque placerat enim. Vitae, lacus eros egestas suspendisse natoque consequat. Tellus enim eros diam sit leo blandit libero ut morbi. Convallis iaculis nam.</h3>
                 </div>
                 <div className={styles.imagemContainer}>
-                    <img src="/images/sobre1.jpg" width={'450px'}/>
+                    <img src="/images/sobre1.jpg" width={'450px'} alt={'Pessoa treinando com Halter'}/>
                 </div>
             </div>
         </section>

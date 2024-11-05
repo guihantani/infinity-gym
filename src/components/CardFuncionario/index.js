@@ -4,7 +4,7 @@ function CardFuncionario({imagem, nome, funcao}){
     return(
         <div className={styles.cardFuncionario}>
             <div className={styles.container__imagem}>
-                <img src={imagem}/>
+                <img src={imagem} alt={nome}/>
             </div>
             <div className={styles.cardFuncionario__texto}>
                 <h3>{nome}</h3>

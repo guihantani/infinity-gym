@@ -51,7 +51,7 @@ function HomeSobre(){
                     </div>
                 </div>
                 <div className={styles.imagemContainer}>
-                    <img src="/images/building.jpg"/>
+                    <img src="/images/building.jpg" alt="Imagem da Academia"/>
                 </div>
             </div>
         </section>

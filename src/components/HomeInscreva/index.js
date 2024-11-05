@@ -51,8 +51,8 @@ function HomeInscreva(){
             </div>
             <div className={styles.container__imgs}>
                 <div className={styles.wrapper__imgs}>
-                    <img className={styles.imagem2} src='/images/HomeInscreva1.jpg' width={'640px'}/>
-                    <img className={styles.imagem1} src='/images/HomeInscreva2.jpg' width={'500px'}/>
+                    <img className={styles.imagem2} src='/images/HomeInscreva1.jpg' width={'640px'} alt='Pessoa treinando'/>
+                    <img className={styles.imagem1} src='/images/HomeInscreva2.jpg' width={'500px'} alt='Pessoa segurando Halteres'/>
                 </div>
             </div>
         </section>

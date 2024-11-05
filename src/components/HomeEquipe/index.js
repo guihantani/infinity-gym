@@ -46,7 +46,7 @@ function HomeEquipe(){
                     </div>
                 </div>
             </div>
-            <img src='images/equipe.jpg'/>
+            <img src='images/equipe.jpg' alt='Imagem de 3 pessoas treinando'/>
         </section>
     )
 }

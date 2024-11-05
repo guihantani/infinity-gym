@@ -6,7 +6,7 @@ import SobrePrincipios from "../../components/SobrePrincipios";
 function Sobre(){
     return(
         <>
-            <BannerGeral titulo={'Sobre Nossa Academia'} texto={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque dignissim vulputate pellentesque id consequat fringilla non ultrices.'} imagem={'/images/sobreBanner.jpg'}/>
+            <BannerGeral titulo={'Sobre Nossa Academia'} texto={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque dignissim vulputate pellentesque id consequat fringilla non ultrices.'} imagem={'/images/sobreBanner.jpg'} legenda={'Pessoas em uma academia'}/>
             <SobreHistoria/>
             <SobrePrincipios/>
             <Carrosel/>

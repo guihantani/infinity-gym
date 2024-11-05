@@ -5,7 +5,7 @@ import styles from './Equipe.module.css';
 function Equipe(){
     return(
         <>
-            <BannerGeral titulo={'Equipe'} texto={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis euismod dolor'} imagem={'/images/equipeBanner.jpg'}/>
+            <BannerGeral titulo={'Equipe'} texto={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis euismod dolor'} imagem={'/images/equipeBanner.jpg'} legenda={'Profissional auxiliando pessoa no treino'}/>
             <EquipeLista/>
         </>
     )
