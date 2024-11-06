@@ -26,6 +26,13 @@
     gap: 30px;
 }
 
+.noFill{
+    color: white;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    paint-order: stroke fill;
+}
+
 @media (max-width: 1024px) {
     .sobrePrincipios h1{
         font-size: 40px;
