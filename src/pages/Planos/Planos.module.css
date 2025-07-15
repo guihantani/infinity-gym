@@ -29,3 +29,9 @@
         font-size: 16px;
     }
 }
+
+@media (max-width: 375px) {
+    .planos__container{
+        padding: 0 30px 10vh 30px;
+    }
+}
