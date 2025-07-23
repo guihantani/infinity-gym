@@ -20,7 +20,7 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 496px) {
     .planos__texto h1{
         font-size: 50px;
     }
